@@ -4,7 +4,7 @@ resource "aws_iam_user" "terraform_user" {
 }
 
 # Attach AdministratorAccess policy to the IAM user
-resource "aws_iam_user_policy_attachment" "" {
+resource "aws_iam_user_policy_attachment" "admin_policy_attachment" {
   policy_arn = "arn:aws:iam::aws:policy/AdministratorAccess"
   user       = aws_iam_user.terraform_user.id
 }
