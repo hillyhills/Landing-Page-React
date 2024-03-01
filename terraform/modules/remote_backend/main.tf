@@ -1,6 +1,6 @@
 # IAM User for Terraform
 resource "aws_iam_user" "terraform_user" {
-  name = var.aws_iam_user_name
+  name = var.iam_user_name
 }
 
 # Attach AdministratorAccess policy to the IAM user
