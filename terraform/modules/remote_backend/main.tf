@@ -36,7 +36,7 @@ resource "aws_s3_bucket_policy" "aws_s3_bucket_policy" {
   bucket = aws_s3_bucket.terraform_state_bucket.id
 
   policy = jsonencode({
-    Version = "2024-02-01",
+    Version = "2012-10-17",
     Statement = [
       {
         Effect   = "Allow",
