@@ -19,6 +19,12 @@ crash.*.log
 .terraformc
 terraform.rc
 
+# ignore override files
+override.tf
+override.tf.jason
+*_override.tf
+*_override.tf.jason
+
 # dependencies
 /node_modules
 /.pnp
