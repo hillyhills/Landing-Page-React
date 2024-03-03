@@ -23,4 +23,7 @@ The only challenge I faced is using styled-components, it was intimidating at fi
 # Credits
 @briandesign
 # Landing-Page-React
+<<<<<<< HEAD
 # Landing-Page-React
+=======
+>>>>>>> c3ade5863f14b95b1b3ee2124fa879aa898a5e5e
