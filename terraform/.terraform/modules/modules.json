@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"backend","Source":"./modules/remote_backend","Dir":"modules/remote_backend"}]}
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"backend","Source":"./modules/remote_backend","Dir":"modules/remote_backend"},{"Key":"dns_acm","Source":"./modules/routes53_acm","Dir":"modules/routes53_acm"}]}

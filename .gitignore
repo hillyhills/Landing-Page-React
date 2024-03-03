@@ -13,8 +13,8 @@ crash.log
 crash.*.log
 
 #exclude all .tvars files, which are likely to contain sensitive data.
-*.tfvars
-*.tfvars.jason
+# *.tfvars
+# *.tfvars.jason
 
 # ignore CLI configuration files
 .terraformc

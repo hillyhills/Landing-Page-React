@@ -22,3 +22,9 @@ module "backend" {
 output "iam_user_name" {
   value = module.backend.iam_user_arn
 }
+
+module "dns_acm" {
+  source = "./modules/routes53_acm"
+  root_domain = var.root_domain
+  dns_rocord_ttl = var.dns_rocord_ttl
+}
