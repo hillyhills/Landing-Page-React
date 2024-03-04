@@ -33,3 +33,8 @@ module "s3_website" {
   index_document = var.index_document
   region = var.region
 }
+
+module "website_vpc" {
+  source = "./modules/vpc_subnet"
+  subnet_prefix = var.subnet_prefix
+}

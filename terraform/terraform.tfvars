@@ -8,3 +8,4 @@ website_bucket = "hilary.cloud"
 force_destroy = false
 index_document = "index.html"
 versioning_enabled = "Enabled"
+subnet_prefix = [{ cidr_block = "10.0.1.0/24", name = "prod_subnet" }, { cidr_block = "10.0.2.0/24", name = "dev_subnet" }]
